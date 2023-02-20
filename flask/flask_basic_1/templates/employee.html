@@ -1,0 +1,23 @@
+<html>  
+<head>  
+    <title>customers</title>  
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">  
+</head>
+   <body>  
+       <h3>Register the Employee, fill the following form.</h3>  
+      <form action = "http://127.0.0.1:5000/success" method = "POST">  
+
+         <p>ID <input type = "text" name = "ID" /></p>  
+
+         <p>Email <input type = "email" name = "email" /></p>  
+
+         <p>DOB <input type = "text" name = "DOB" /></p>  
+
+         <p>Contact <input type ="text" name = "Contact" /></p>
+
+         <p>Refering_manager <input type ="text" name = "Refering_manager" /></p>
+
+         <p><input type = "submit" value = "submit" /></p>  
+      </form>  
+   </body>  
+</html>  
